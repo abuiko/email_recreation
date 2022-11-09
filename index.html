@@ -24,6 +24,7 @@
         h3,
         p {
             Margin: 0;
+            color: #000000;
         }
 
         .main {
@@ -42,6 +43,10 @@
             padding: 40px;
         }
 
+        .footer {
+            color: #ffffff;
+        }
+
         @media screen and (max-width: 500px) {
             .padding-mobile {
                 padding: 30px 20px !important;
@@ -55,6 +60,14 @@
 </head>
 
 <body style="padding: 0; margin: 0">
+    <div
+        style="font-size:0px;line-height:1px;mso-line-height-rule:exactly;display:none;max-width:0px;max-height:0px;opacity:0;overflow:hidden;mso-hide:all;">
+        Hello Alena,
+
+        You're almost ready to book your next adventure with Recreation.gov. Please confirm your email address to
+        activate your account.
+    </div>
+
 
     <center class="main">
         <table class="wrapper" width="100%" role="presentation">
@@ -164,10 +177,12 @@
                         </tr>
                         <tr>
                             <td style="color: #ffffff; padding: 30px 0px 10px">
-                                <p>You have received this email because you're a valued Rec.gov visitor.</p>
-                                <p style="margin-bottom: 30px">If you no longer wish to receive these emails you can
+                                <p class="footer">You have received this email because you're a valued Rec.gov visitor.
+                                </p>
+                                <p class="footer" style="margin-bottom: 30px">If you no longer wish to receive these
+                                    emails you can
                                     unsubscribe at any time.</p>
-                                <p>© 2022 Recreation.gov. All Rights Reserved.</p>
+                                <p class="footer">© 2022 Recreation.gov. All Rights Reserved.</p>
                             </td>
                         </tr>
                     </table>
